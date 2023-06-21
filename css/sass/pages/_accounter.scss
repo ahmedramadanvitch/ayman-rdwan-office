@@ -1,0 +1,37 @@
+.accounter{
+    .main-h2{
+        color: var(--text-color) !important;         
+    }
+    .card{
+        direction: rtl !important;
+        text-align: center;
+        background-color: transparent;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px 0px #669394;
+        .card-title{
+            color: var(--main-color);
+        }
+        p{
+            color: var(--text-color) !important;
+        }
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            width: 35px;
+            height: 35px;
+            padding: 5px;
+            transition: all .3s linear;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+        i {
+            font-size: 20px;
+            color: rgb(255, 255, 255) !important;
+            transition: .3s ease !important;
+        }
+    }
+}
